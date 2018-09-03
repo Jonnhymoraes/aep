@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+	
+	int a,r;
+	
+	printf("Digite quantos metros o aviao percorreu:\n");
+	scanf("%d", &a);
+	
+	r=a*0.57;
+	
+	printf("Resultado: %d metros", r);
+	
+return 0;	
+}
