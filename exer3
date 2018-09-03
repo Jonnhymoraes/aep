@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+	
+	int a,b,c,y;
+	
+	printf("Digite os valores de a,b e c:\n");
+	scanf("%d\n %d\n %d", &a,&b,&c);
+	
+	y=(2*(a*a))+(a*b)-(2*(a*c))/2;
+	
+	printf("Resultado: %d", y);
+	
+return 0;	
+}
