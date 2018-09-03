@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+	
+	float n1,n2,n3,ma,mh;
+	
+	printf("Digite 3 valores em ponto flutuante:\n");
+	scanf("%f\n %f\n %f", &n1,&n2,&n3);
+	
+	ma=(n1+n2+n3)/3;
+	mh=1/(1/n1+1/n2+1/n3);
+	
+	printf("Media Aritmetica: %.3f\nMedia Harmonica:%.3f", ma,mh);
+	
+return 0;	
+}
