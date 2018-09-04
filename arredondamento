@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main (){
+	
+	float a,f;
+	int b;
+	
+	printf("Digite um valor em ponto flutuante:\n");
+	scanf("%f", &a);
+	
+	b=a;
+	f=a-b;
+	
+	if(f<=0.5){
+	
+		f=a-f;
+		printf("%f", f);
+	}
+	else{
+		f=a+1-f;
+		printf("%f",f);
+}
+return 0;			
+	
+}
