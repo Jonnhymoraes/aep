@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main (){
+	
+	int anos;
+	float rad;
+	
+	printf("Escreva o nivel de radiacao:\n");
+	scanf("%f",&rad);
+	printf("Escreva o tempo em anos dessa radiacao:\n");
+	scanf("%d",&anos);
+	
+	while(anos>=3){
+	rad=rad/2;
+	anos=anos-3;
+	}
+	printf("A radiacao sera:%.02f\n",rad);
+
+return 0;
+}
