@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+	
+	int saldo=1000,y;
+	
+	printf("Digite a operacao desejada 1,2,3 ou 4:\n");
+	scanf("%d",&y);
+	
+	switch (y){
+	case 1:
+		printf("vc escolheu a opcao saldo\n");
+		printf("Seu saldo eh %d",saldo);		
+		break;
+	case 2:
+		printf("vc escolheu a opcao saque");
+		break;	
+	case 3:
+		printf("vc escolheu a opcao deposito");
+		break;
+	case 4:
+		printf("vc escolheu a opcao sair: Obrigado");
+		break;	
+	}
+return 0;
+}
