@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+	
+	int i,n;
+	float x,res=0;
+	
+	printf("Digite quantos termos:\n");
+	scanf("%d", &n);
+	printf("Digite x:\n");
+	scanf("%f", &x);
+	
+	for(i=1;i<=n;i++){
+		if(i%2==0)
+			res=res-pow(x,i)/i;
+		else
+			res=res+pow(x,i)/i;
+			}
+	printf("Resultado:%.2f",res);
+	
+return 0;
+}
