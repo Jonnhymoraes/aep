@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+
+	int i,n,j;
+	float x,res=0,fat=1;
+	
+	printf("Digite quantos termos:\n");
+	scanf("%d", &n);
+	printf("Digite x:\n");
+	scanf("%f", &x);
+	
+	for(i=1;i<=n;i++){
+		fat=1;
+	//	for(j=1;j<i;j++) outra possíel solução
+			fat=fat*i;
+		if(i%2==0)
+			res=res-pow(x,i)/fat;
+		else
+			res=res+pow(x,i)/fat;
+			}
+	printf("Resultado:%.2f",res);
+	
+return 0;
+}
