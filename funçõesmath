@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+	
+	float x;
+	
+	for(x=-1;x<=1;x=x+0.25){
+	printf("Numero:%.02f\n",x);
+	printf("arredondamento para baixo:%.02f\n",floor(x));
+	printf("aredondamento para cima:%.02f\n",ceil(x));
+	printf("arredondamento:%.02f\n",round(x));
+	printf("trunc:%.02f\n",trunc(x));
+	printf("valor absoluto:%.02f\n",fabs(x));
+	printf("seno:%.02f\n",sin(x));
+	printf("cosseno:%.02f\n",cos(x));
+	printf("tangente:%.02f\n\n",tan(x));
+}
+return 0;
+}
