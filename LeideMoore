@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main (){
+	float tran=1000,c;
+		
+	for(c=1971;c<=2020;c=c+1.5){
+		tran=tran*2;
+		printf("%.0f-",c);
+			if(c-floor(c)==0)
+			printf("1:%.0f\n",tran);
+			else
+			printf("2:%.0f\n",tran);
+
+}
+return 0;
+}
