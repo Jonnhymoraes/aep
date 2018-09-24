@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+	
+	int x,i,j;
+	
+	printf("Informe o tamanho do quadrado:\n");
+	scanf("%d",&x);
+	
+	for(i=1;i<=x;i++){
+		printf("\n");
+		for(j=1;j<=x;j++){
+		printf("*\t");
+}
+}
+return 0;
+}
